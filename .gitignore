@@ -1,0 +1,8 @@
+target/          # Ignore compiled Java classes and JAR files
+*.class          # Ignore all Java compiled class files
+*.jar            # Ignore JAR files (avoid pushing compiled binaries)
+*.war
+*.ear
+.mvn/            # Ignore Maven wrapper files
+.idea/           # Ignore IntelliJ IDEA project files
+.vscode/         # Ignore VS Code project files
